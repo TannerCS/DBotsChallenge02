@@ -5,7 +5,7 @@
 ```json
 {
   "botToken": "Bot Token",
-  "modmailChannelID": ChannelID
+  "modmailChannelID": 123
 }
 ```
 2. CD into the directory of `ModBot.csproj` and type `dotnet run ModBot.csproj`. This will run it immediately. If you want to compile, type `dotnet build` and then cd into \bin\Debug\netcoreapp2.1 and type `dotnet ModBot.dll`
