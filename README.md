@@ -1,5 +1,14 @@
 # Challenge Two: You Got Mail
 
+## How To Compile
+1. Create a file called config.json next to `ModBot.csproj` the and input this json with the proper information.
+```json
+{
+  "botToken": "Bot Token",
+  "modmailChannelID": ChannelID
+}```
+2. CD into the directory of `ModBot.csproj` and type `dotnet run ModBot.csproj`. This will run it immediately. If you want to compile, type `dotnet build` and then cd into \bin\Debug\netcoreapp2.1 and type `dotnet ModBot.dll`
+
 ## Introduction:
 It was brought up in The Council's most recent meeting ~~(FM mentioned it in a random message in our channel)~~ that a Mod Mail feature would be quite helpful for the server. In essence, it would be a way for you to communicate with The Council as a whole without other members seeing, to provide feedback or bring something to our attention. Now, we're extremely busy running the server (if you couldn't already tell), and that's where you come in: we'd like to give you the opportunity to create something the whole server will use! Thus, this week's challenge is to create a Mod Mail Bot containing according to the specifications below. Note that the winning submission may be modified at our discretion to bring it in line with our style, improve it, or any number of reasons. I'm also not pinging for this one, because it's too long for a single message and I don't want to ping twice.
 
